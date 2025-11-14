@@ -1,4 +1,4 @@
-org: luimutec
+org: luismutec
 service: api-pelicula
 
 provider:
@@ -8,7 +8,7 @@ provider:
   memorySize: 1024
   timeout: 20
   iam:
-    role: arn:aws:iam::439535099835:role/LabRole	
+    role: arn:aws:iam::743810914832:role/LabRole	
   environment:
     TABLE_NAME: ${sls:stage}-t_peliculas
 
